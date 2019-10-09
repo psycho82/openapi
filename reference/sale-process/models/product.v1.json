@@ -1,0 +1,25 @@
+{
+  "title": "Product",
+  "type": "object",
+  "properties": {
+    "id": {
+      "$ref": "../../common/models/id.v1.json"
+    },
+    "name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "number"
+    }
+  },
+  "x-examples": {
+    "Apple": {
+      "value": {
+        "id": 123,
+        "name": "apple",
+        "price": 3.3
+      }
+    }
+  },
+  "description": "product entity"
+}

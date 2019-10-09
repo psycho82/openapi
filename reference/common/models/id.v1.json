@@ -1,0 +1,6 @@
+{
+  "type": "number",
+  "title": "id",
+  "minimum": 0,
+  "description": "Unique Entity Identification number"
+}

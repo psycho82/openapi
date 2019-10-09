@@ -1,0 +1,25 @@
+openapi: 3.0.0
+info:
+  title: Sale Process
+  version: '1.0'
+  contact:
+    name: ewrqwr
+  description: qewrqwer
+servers:
+  - url: 'http://localhost:3000/saleprocess'
+paths:
+  /product:
+    get:
+      summary: Get Product
+      tags: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: ./models/product.v1.json
+      description: Get description
+      operationId: getById
+components:
+  schemas: {}
